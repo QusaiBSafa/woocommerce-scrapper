@@ -50,11 +50,11 @@ The extracted data will be saved to a CSV file named promotions.csv in the same 
 ## Customization
 You may need to adjust the CSS selectors in the get_productdata function to match the HTML structure of the target WooCommerce site. Here are some of the customizable elements:
 
-**Title Element: 'h1.product_title.entry-title'**
-**Price Container: 'div.elementor-element-ef626ed'**
-**Image Element: 'div.woocommerce-product-gallery__image img'**
-**Short Description: 'div.woocommerce-product-details__short-description'**
-**Additional Attributes: 'div.elementor-element-e68a7ce', 'div.elementor-element-27b065b', etc.**
+**Title Element**: 'h1.product_title.entry-title'
+**Price Container**: 'div.elementor-element-ef626ed'
+**Image Element**: 'div.woocommerce-product-gallery__image img'
+**Short Description**: 'div.woocommerce-product-details__short-description'
+**Additional Attributes**: 'div.elementor-element-e68a7ce', 'div.elementor-element-27b065b', etc.
 ## Notes
 The script is designed to work with WooCommerce websites that follow a specific structure. If your target website has a different structure, you may need to adjust the CSS selectors accordingly.
 Adjust the time.sleep() durations as needed to ensure all products load correctly during scrolling.
